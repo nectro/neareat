@@ -1,0 +1,6 @@
+.majorContainer{
+    @apply min-h-screen flex flex-col justify-center items-center bg-bgc;
+}
+.formContainer{
+    @apply p-4 rounded-md shadow-xl;
+}

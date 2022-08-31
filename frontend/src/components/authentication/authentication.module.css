@@ -1,0 +1,18 @@
+.majorCtn{
+    @apply flex flex-col justify-center items-center;
+}
+.heading{
+    @apply text-2xl font-medium text-headings;
+}
+.field{
+    @apply m-1;
+}
+.label{
+    @apply text-sm text-left mx-1;
+}
+.inp{
+    @apply p-2 px-4 border-2 border-button rounded-md w-72;
+}
+.button{
+    @apply bg-button m-2 w-72 py-2 rounded-md;
+}

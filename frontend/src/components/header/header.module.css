@@ -1,0 +1,18 @@
+.majorContainer{
+    @apply h-16 px-4 fixed z-30 w-screen shadow-md bg-button flex flex-row justify-between items-center;
+}
+.headingCtn{
+    @apply bg-button flex flex-row justify-between items-end gap-5;
+}
+.subMenu{
+    @apply bg-button flex flex-row justify-center items-center gap-3 pb-1;
+}
+.heading{
+    @apply font-heading font-extrabold text-3xl;
+}
+.menu{
+    @apply flex flex-row justify-center items-center gap-3;
+}
+.img{
+    @apply h-8 w-8 rounded-full bg-black;
+}

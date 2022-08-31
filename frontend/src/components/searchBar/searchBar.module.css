@@ -1,0 +1,15 @@
+.majorContainer{
+    @apply pt-10 px-10 w-full;
+}
+.textInp{
+    @apply w-full h-16 bg-bgc shadow-lg rounded-md flex flex-row justify-between items-center; 
+}
+.textContainer{
+    @apply w-3/5;
+}
+.filterContainer{
+    @apply w-1/5;
+}
+.buttonContainer{
+    @apply w-1/5;
+}

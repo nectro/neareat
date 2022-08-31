@@ -1,0 +1,57 @@
+.majorContainer{
+    @apply max-w-5xl m-auto pt-16;
+}
+.cardHolder{
+    @apply w-full flex flex-row flex-wrap justify-center gap-8 p-10;
+}
+.card{
+    @apply w-full h-48 bg-bgc shadow-md rounded-lg p-3 flex flex-row justify-between items-center;
+}
+.cardImgHolder{
+    @apply w-1/4 h-full flex justify-center items-center;
+}
+.cardImgHolder img{
+    @apply h-full w-full rounded-md opacity-90 hover:opacity-100 duration-500;
+}
+.detailsHolder{
+    @apply w-2/4 h-full p-5 text-left flex flex-col justify-between gap-3;
+}
+.detailsHolder h2{
+    @apply text-xl font-semibold;
+}
+.caption{
+    @apply text-sm font-bold text-caption mt-1;
+}
+.miniDetails{
+    @apply flex flex-row gap-2 justify-start items-center; 
+}
+.tagN{
+    @apply h-6 w-12 rounded-md border-red-500 text-red-500 border-2 text-sm text-center;
+}
+.tagV{
+    @apply h-6 w-12 rounded-md border-green-500 text-green-500 border-2 text-sm  text-center;
+}
+.tagM{
+    @apply h-6 px-3 rounded-md border-blue-500 text-blue-500 border-2 text-sm  text-center;
+}
+.BookingsHolder{
+    @apply w-1/4 h-full border-l-blue-500 border-l-2 flex flex-col justify-between items-center px-2;
+}
+.inviteHolder{
+    @apply h-3/5 w-full border-b-2 border-blue-200 flex flex-col justify-center items-center gap-2; 
+}
+.inviteHolder svg{
+    @apply text-4xl text-qrC;
+}
+.inviteHolder p{
+    @apply text-sm;
+}
+.preOrderHolder{
+    @apply h-2/5 w-full flex flex-col justify-center items-center;
+}
+.btn{
+    @apply bg-button px-7 py-1 rounded-md hover:scale-105 duration-100
+}
+
+
+
